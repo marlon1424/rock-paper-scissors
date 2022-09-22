@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    
+}
+
+
+.rock{
+    height: 50px;
+    width: 100px;
+    background: green;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+}
+
+.paper{
+    height: 50px;
+    width: 100px;
+    background: green;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+}
+
+.scissors{
+    height: 50px;
+    width: 100px;
+    background: green;
+    color: antiquewhite;
+    border: none;
+    border-radius: 5px;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    flex-direction: column;
+    gap: 16px;
+}
